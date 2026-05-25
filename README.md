@@ -6,7 +6,7 @@
 
 ## 架构变更
 
-| 组件 | 原版 | 修复版 |
+| 组件 | 原版 | PHP 版 |
 |------|------|--------|
 | 运行时 | Cloudflare Pages Functions | PHP 7.4+ |
 | 数据库 | Cloudflare KV | SQLite (文件型) |
