@@ -5,7 +5,7 @@
  * POST: 强行篡改底层状态（核销打款 / 驳回）
  */
 
-require __DIR__ . '../config/common.php';
+require __DIR__ . '/' . "../config/common.php";
 
 // 处理 CORS 预检
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
